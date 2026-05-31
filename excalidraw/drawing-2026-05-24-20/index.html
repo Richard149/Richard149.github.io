@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto" data-theme="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="noindex, nofollow">
+<title>边缘模型部署架构师之路</title>
+<meta name="keywords" content="excalidraw">
+<meta name="description" content="==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: &lsquo;Decompress current Excalidraw file&rsquo;. For more info check in plugin settings under &lsquo;Saving&rsquo;
+Excalidraw Data
+Text Elements
+Batch个图片 ^XLUIjrLN
+两个label ^cqymwnGE
+对应label文件中的两条记录 ^ToxFTIvE
+%%
+Drawing
+N4KAkARALgngDgUwgLgAQQQDwMYEMA2AlgCYBOuA7hADTgQBuCpAzoQPYB2KqATLZMzYBXUtiRoIACyhQ4zZAHoFAc0JRJQgEYA6bGwC2CgF7N6hbEcK4OCtptbErHALRY8RMpWdx8Q1TdIEfARcZgRmBShcZQUebR44gGYaOiCEfQQOKGZuAG1wMFAwYogSbggADQAZAFUASQArUiqAORTiyFhEcqgsKHaSzG5nAE4eEe0AdgAOSYA2ABYARgXx
+
+kYAGJb4CyBhhxJGl/hKKEnVuJeml7SWAVjGeW4W5xOm5ye2OqQRCZWluV7adbAkGgkErY6QazKYLcdaQiDMKCkNgAawQAGE2Pg2KRygBiJYIIlEgaQTS4bCo5QooQcYhYnF4iTI6zMOC4QJZMkQABmhHw&#43;AAyrBYRJBB4eUiUeiAOpnSTcT4laVohAimBi9ASsoI2l/DjhHJoI47CBsDnYNR7E3AhE04RwOrEY2ofIdSAAfTmNQAElAGhwAEoAaS
+
+FAC0ahRPfQFgBNACKDQAagBHCA7AC6CN55Ayzu4HCEgoRhHpWHKuHWPNp9MNzFdRZLZrCCGIFw2m3WIwWVwRjBY7C4trm/aYrE4LU4YguPAWM2W85GpeYABE0r122heQQwgjNMJ6QBRYIZLKN4v4BFCODEXCbi6TSYjOaPJZLSa3Obws04qlt7gd3wPczV6TB&#43;gkAAhe9sEkQAqOUAP7VAHEnGtKAAFT6cpoKgWDEJQnNOCgIVCCMcRUESdZtAWM
+
+EaM2RICKyAAxXB9AFG1UFuBEwKgABBIhlGHdBgl5fox1IKBzAIPjfkE6ALR5PQslwMsmALNAmyvM1cV&#43;MsCAw8CsJg&#43;DkJ5XAhCgNgg3CEiyORIQEARIhDV9H4/gg1BrkeBFJFCfSoCqMtUUA3cEAKABfY4ihKMoJAABVuCxbmIGpCHWDgGigSYAFlGOUfRcAAKRGW4eS6MiIECbAog4GEkARIY0GcSZuymTizXY5wFluOI2q&#43;U5iHOE1bmmbzXP
+
+&#43;E1Enos1oS1H8vlVdFGVxAkSWJOqzQpKkHTpBlsWWllyA4dlOUyUSzX5QUNS1RFsV1FtkTVeUBsVNBlQEB70Su8qdXbPVhANI0LgRC1KWtC47TNbanRdPIdkgOohQQD5CFimpmESOA5kYxiMmwcMoEwSYyS9H1/UDUMIyjGN4yTNMMw6bNzrzBA1NQDTS3LBr0FwJYa0PYh61dKKSjKgEdgilsEAAtBX0mngP3eMSJ0E&#43;XRzNAdlanDgZ1tJYKL1
+
+pcV3XYIH23EL935k90lO11ckZr4bzvU2PKfF83w/L85pKJygvUy9HLYf8t1QICQK&#43;HzmD8gKOF9kOQvCyKzRi9BEgAeX0BZeWIBNea4&#43;ByqCIg5HWr4uecF4Jk/BEOvGKa&#43;oVbhlzNSQxvc98ERmsivfemVMT25l0EJNbSX3SlqVrXamR6Q7jq5M6vgu4VRW&#43;27fvu3unsG3gEQW9Vl/KH6&#43;b8SRBaBrTLTB21u4gKHnVtuGIARpGeBRtGMaxnGE
+
+DxgmichEm/QDMGMMkZoyxkTCmdMWYczM1ZuzJOnNKw8CPnWQGaBhadHzkqcWO8pbB0WJsV80weB1xKBrIc3AZhKyHFrHWHlJrzEmIkQ2Sc1wbmlnHYCDkNqW1PDbQs/szSO3vOwj8z5Xy3HfJ&#43;b8jlAr8ObF8P86Jg6h1CsUCWxRhalGDhAAqBVlAVCFEeSQBVSAAHFsAcESJBZMVkeKemINMUqmCJCF0IMXHkZcK7xF6iUGu9xtA&#43;MgP1LeTdw6
+
+twuKaL4nc4Q7w&#43;n3KeEgh6rR5Jtce/MloD2gDPDkc8eSLy&#43;gfVeUo4mbxetvdeaoCniiKX9Y&#43;p8TTAwvrAcG19b4wzQO6L4T9kao3RpjbGuN8aE2JhAb0ADybAKpmA2mkCGbQJYizYOcCvhlmIBWCQuBki1JQQ2bg6DoDON4NgyWIjJiLjeIkKu6txzkKGtfMhk5pxkWmE8Oc0wRgfKNmw5R5tuE7StmebIeR7YlCEc7URbsJEe2kb&#43;WRft5He0D
+
+ko4KnDvK&#43;T6NHWOKiE4FE0cnKQq5fjOGTKuLKDQKAwDmLKGAc5PQwA&#43;OGJx3QXGCjcWEDxwwXjTG8dXYYCQ5gBIRMEspoSSgt1&#43;ONDykSSjRLQNfXeGSVrDxLiUVJ216SKoOmyHJp08kCiXpqFekpYkbwbq9E1lT97VONWafUJ9UEeUaaDZpV97S0mhvfD0j9EY9Lfv0z&#43;39hl/1GaTQBFMQHU3AXTKBTMFmwIESshBGyFjIIFg6/ZotXrHPmrg7
+
+gntJqSMmFQzgFwvzFo4DQsiPAiHTCIZcwJpRWEm3YSoi2/zeHnmBdeW8wjg4QvEZIz2MiY5yM0gopFLbfnh3ReBTFKKwg4o0UnbRuA5h1FwM4VEPBSCTBDHUUMDQ6jTATMQCgmBGV52ZegSq1Vaocsas1AVVyvgdUuNcBtwrS0jWbuEiaJCoQ1Vmhaxa/clXJNHltCemr0CsiOjq7kOZ9VVO1DUipcozXlPmnE5DN0bVfDtfUx159nXsSWBDL4bT
+
+PVdJ9S/Xp78BlfyGb/B&#43;YyyZAMpqAmmED6bFBBZAXMcalkJuikm7mJVtlpt2Wgh&#43;mbyLZpVLmk0YwniXK2KKyADzBKJEuOWyt3AFgbDmN&#43;WYXzm0/NRX848HagUdL4xAMFpyxHuykdfH2o6A5B3nVw6dkcMVwo4QutRicVnaOIJoT0LQCpVCgFlEMcxYD6GxPoOMBVTEtDgEy8qN7on1WGM1blz7fGcsuIKs0n6hrfrCRKtuk0O6Aa7sB&#43;J&#43;1B6r
+
+RHhtMe6rJ7Naydqk6CHzpIatShvDKoSkYbeoibDQ3cN3Xw/9e1UmiNfBBlaF1HlyMlEo7DL13TaN&#43;o/oMn&#43;IzWNhsmZxqNszePzPzEJhFkBVnrO5nMVNhGM2HMSPJgQimPLDXeR&#43;C55alS3CLdcwcjztZkXfAkW46xEi3HuKZhAztW2WeIACvhtnu1O0c5CwdMKFH&#43;eWYizzZsLM&#43;ajv57FQXcXLvKLFKAcZCAFXWLKJBl6stf1vbCXLjU5hENar
+
+yxqw11MQHK&#43;Ra&#43;4q3IAjVlE&#43;rMS0NNcyfiHgvIRgIAWCmiDaSdrQZ63Bvr88Sj5Om4fRrpSlSNZw6b2183CPSsgCty&#43;63Wnurvtt6jz9X59IO4xo7waTsTI45GmZPGwB2YEzd9z8C1lcwgLgZjc2dqvZk&#43;9z7iJvtbHlgkBYcOReabzSDr4mm9NoF7B8YzBxEfI6naqnh1tO0dLhug&#43;72j6W&#43;mIFUaYcY9h/wwVeuPpAURUDhmFGNDse3gtdgO6F
+
+rnCfCcgIoydnDF2FFpxIHgbB1i3BwH8WKvJNA8WTKYuYcYqg8VTqiI8mXyjZblzz1A5c9YC/asMIdZWMOXNGtV/TkxtAfP/wAQAYsHVnenKo1rrsrqrurpru1pBukqBlqvrrkohpdCbqhlhqas9BbgrlbugSUARg6vbuaE0qRhtpAFto3jtjRl7vRgGkxsdqGoHhGtMtxmPkbjArdmOiJjHpWI4hJsnl6rJh9h0OogpiIjwOsMQiMNpocIDiaPOL
+
+pk8gXlvnMEsB8kQYQE2kjkvmHLXu2vXjZm6E3nDC3uUPQLKMwLFEYFlBUDxMTH3uVJyEPqHmAKPnMoIhPjjtPi5sOrHETgvhOuZroZABHBTiOqToFq4cFtFK3pMO3p3t3tfhsoPmwFQPfs4PDokNoN&#43;KpnzjDtWusJVkVg&#43;jwL/pISsOoV&#43;MVGoUKhhmRpRLDpsIcG8MsHONWl/lLn&#43;toJchrokDwO8PLEQjLjKnLmAQrhAa1iquSB1lBggTBtkg
+
+bnqqgYaoUiNj3I9HUZbtNneMwC3GvIngDItkQY7mtvUW6o6G7pQR7r6t7gxoGgnl8AHuxswVxtGu4QvBwVHomjwRsiMC9uminlejwGnq2H2vMC8P0e&#43;HnjciWmgBsIoRDvph&#43;CMIwswislodXmTnoVZgYReHdvZp4WCU5lCj4bCuEWzPPhAIvkEd5iUHAGwGWIYZ0sUMycUN3GyXDHxmAKyWAM4PUUCPrM0YsFsKsEUR0HrFkT0Tnv0R8JcP0ZyW
+
+we9JyFAJBKsmWMoF8SUJkMQKqfSOqXsg/GkICqzBAPTozszqziMolmsuULiJoGoCMvyJgG2LFAydyFcR0JRBri&#43;BIhsNMF1K&#43;CKb3l6QZnML6YUQGfLAZgqSIbEsqTxCkRQC3LgJwQiNqQmUPsmSuomTyEEAeBQDoaolETTiFmYRYVYTYXYezpWDmekZkdkbDpMEsHkZIdMIUYLg/owlkeUQZocFUb6bUVgaXpRGoS8u&#43;M2cVF&#43;HOB0ZKs2WUVGZ
+
+UXMNUSLrKqgPKnEhMcqikjMfAQkvMb1sgQNssddNbhgRsUOUtqNr3DhjsXsUfIca6McSQS0ucTeJcUYVQZ7nRv6odkGixowc8VMq8ZdmHtdospqfdqJnHlWTbkngCYIYcsCbGScsHH0W8B7O3KDsrNwP6QibQkQh8H0f0f&#43;o2sbNoTSW2jiYCniVwZAA5kSbjjPr4RBVSYEV5giPSYyVRiySYeyWAOsJyX/DyZ1COSMGOe&#43;EufDq&#43;AsL3nOUCAuX
+
+2ZJWoTGVdvdMqbqY4DVCxdqRpfqdJl6kaadCaRvlvjvpIHvgfkfifmfhflfsGtaeVHaQ6cGk6S6W6e5DyZRDDpsMGSpcWVhvGYmVmdpfSBmakcFckc4WmfgPmYWSvnitotgKmDAPoBQBwKYnZaBIctAJhHWVcA2bkS8q2e2S/g&#43;q&#43;PJRUYpcuYOVvPzrntIcVJ&#43;GobcNpjOe5F5NNKMWueAXMRAEkmtNuXATrr1bBrPLqigQaieXgesehheUQbvD
+
+eaEHebUg&#43;WfMts&#43;a6pDK7u0h&#43;dcXtrcXQX7v&#43;eMoBediHoqXyJ8fCrRaUFBbgJBP8Ytv4enuwsRd1MsLDnIRxDJVhdQkoUpmGbWlDoXtFBiYWZRWjtZtxavh6KYRIHALKEKC6LFLFMmPYQcv3k4akS4W4apePtjgxd4W/uOiTgFrSZ0JhBIIACRycE&#43;AuAmgQQqEFAfk5QNNdNDN&#43;AeShExEpESo18vIhEzErE&#43;A7EDa3E0kAk5QwkhuGmTAEk7g
+
+EtskFkGWCIikUQKkpA8a&#43;J2k/geklN6AbN9NjNHc5klk1kvNaAdk5NVJKkLk3&#43;JoPKzcM6/klO8c1OS6pZEgYYDQ6wjEq4cYMFXwsmFUnOOWZoZcOev&#43;ORTZLZBR8wHZ5cpRFVvZdwSlIuYuamf&#43;gB2dKJbVFwvYIBQG4xvV/VbWXwaqsxe5euY1/WC8g2Kx1qs2V555W881U2Dd6At5AEK1C2j5Tqq2pBLuFxO1rJ3qX5&#43;2dx9B/uAF4aQFF2oe
+
+4eV1FJ&#43;JD2seuAGIj1QsgJZEwh7tYhfa/phw6wLwT4X10OeFVax9/RXU0wrVLCZFmJwREAB4&#43;h1F7uHtXq&#43;KCNSNlhqN6NwdWNw&#43;HouNoFHhBNj4xJeOs&#43;5Jz11JXm8Va&#43;6A39yNf91ZkV2NdZmwBVMdRVcdwxuweW1Eydi51V7&#43;c1CQUwk034qhPYS5khedtov&#43;Daq565vcm54GsB2uGqI1Cxh5ddx5RqTdM1CA5uDSOB2xS13dsFq1Yj61JGL5
+
+W1w90NY9NxtBv5DxJQTxs9Z1rB7x7BgmLFq9lYq4m9BpCFQJIJGeRm1aX4BwRB&#43;eaAZav14OtCKw7w3Uest9Ve4NqO6ODey9N19FEDjFpJBOMDlJcDER1tnF/jrJnlvlHoXJPJmelDiQ1DahzwGwb0xQZGTDfldmSI6lapWl&#43;lXwhlWQJpSVKVaVGVVpbANpEgZYDgUx/GhAzpxArpjJ79bJf&#43;TZTC34jwGwfRT49uPTtaflohkAOlxTGppTWp1m
+
+Jp3tvt/tgdXwDltppA9pMtrT7TnT7pu1npASwIoz/FEzcZ4kYVSZIQqZZo6ZQV1zNZUVtzMVqRcVe9CV5QhRPA&#43;A6wUAvoXAaD16odd&#43;4dwwqwtw2DzZuDbZ8dpVD&#43;qhDRClqdpD9cc1JVVWnRP2hdDWxdVdkBauGug1XDXWmSo18GMtfI9dU1axk2mBrdWxHdM2&#43;x&#43;BtuhB/dTuZxijb5I9D8u2NBP5vuf5XqWjZ2weujeN&#43;jke11HMPx3MmVie
+
+OyW95jO9lj7CYZW&#43;EhL40JYOgkp9zjFa/1dCOeFRahGhYNFFvjUNLFQTJoU&#43;zmxN3sc&#43;&#43;JkTZNCDnt6AsoNQWUuAaE6waEWyWV/et&#43;d66RqwCwkLsdML&#43;DEAHUwOEwPZJDA5ZDrdx9DDWLnVoB3VuL3W&#43;L0BRLnWuuZLixE1uBNLu8ojl5wjpbQjFUrLRx7LpxZBN821yjfL35Pu9xDBJ12jYrbxEr/GS9z1RjGyjEpjczDhYsyFOa7CcO3YGr7y
+
+X1ZG2rmshrWwRCXUUhZrD9Pj5ddeb90rYDvawTRN&#43;Ojr4TzrbFUTbrMR5QaEbAmAjEaEdQ9A8rIs2V3E96D&#43;3UlE0dUL&#43;RbZYpMbnKL4ASSL/ZNRybZSbR3R9wVwn46wvYNaabHVsumbrDaoEBKuBLMB5dO5w1VdRbfDRuVLgjzLwjFbbd15aBNLBB9bxGA9CjFGLb3TKj&#43;1ajgrGj/8bGPbLBfboDHxBjB73xj2cepiY7ATOCIicO1aYlLw9jMJ
+
+gkis&#43;rJeHk84oZiwIN925r7FlruJ1rhJx79rp7ARpNKOQd&#43;tEAgAn9qAApeuzUEIAOGmgAb3KAC0coACFuVNgAhuaAAN0YAKr6TNLNEgNndn&#43;ATnbnnnvnXNWQPNl9DEUAQtbEeaXEfQitUtCAIkPIA48tUk/ESt8kqthEykhomtNzy2pAOkHAetBkgXtnRtIXLn7n3nfnJtFkVkrAFtqAVtw6CAdtmLnkDaoRfm5JVO/lMNN76&#43;jEqYzALQ6w&#43;g
+
+GI2AmAq4&#43;MzAkE4Y4Y/UvISRQLVUYdpcYLcOEb0L6wsLL6YLqhxDVVSbqLrd4wWdOdABmn3w9tqngHLDPVeLkx&#43;bld3WhH41R5k1pHxSdLZSlHlqjLXdZHtbdSbL9HHLTbFBBz8M1B7bk9R1wrM9orvHIFi9gnEn0eInuAvo4nb2V6u9I3X27CTwYZzUHwD3DjvARCF9s4jViwxC3jFru7r9GObodmNrLskDTFZJfhETl7ZNaKvms6rty&#43;7ziDEA
+
+q4bAdQqc4CNQwkQgdQpi9AmgvIrEsoALgbHO23ILu3jUqwWRv7kbR30br60h53yLl3JwdRN3d3gBD3kus5BdGbRdZ5IG73W5WuBbPDB5v3/D/3qxNb5bmx4jYPkjEPtHfdMPjbQ93LrbSPE9h1Qrjx6PQemPC9YFWtN1w73MdQRP29k7e95Pfar4z41EwIy7ty5EzZjPJoKwU5vYle993yOnHPVFXPdsWOR7tr/PoTZ7QvF7pnNeIRztc6V7ai4A
+
+9scecAcAIowiZjnQLcGQUt3&#43;xwDAhACAFA0EQ13DeLvIx/J/AwEA2AIgc8dQvQ&#43;gIobDJdWHebW/F/g&#43;RlN/&#43;/xLhbvDQfkAL/V/N/jEEjqH2Zbn9L&#43;b/dIHfxbrA9n&#43;YAipjf0gGfRqOTdUAa/zgHpAgwdbOPiUD/7gD9AqcDas7hgGoCoA1/dIIxEFosQEujjIgf/zIHc0bIfNGgbgL8gpcJA0tM/jgLQG38ogFze5imU1IoDaB&#43;gI8KFT4HZk
+
+nm2A2ASQJv6XM0I2VCeBwKkGkD9AjEZmBgK1BE5EQ2AFEIKAqARJtMNwRsn&#43;2KpFEtBOg/AHGEbgbAbe4HUVBACMBsADAK/DTAQHsgXAV8gg3ARgLgqLZIe9IM/jSBIDRdGBBQZtkEN6AZZqBoQwIcQCyj1MEAIg&#43;msEHZ7kEyuJLZwRAEgjYhtEpAZQBSAAAU8sItLwA/DUAShxQrygAEoeQVkZQMWE5A348huAQoRRDKHEJ4QvAVoWuQCTVCPB
+
+nAoiHEnwESROANFLfhHgQBWRywZXEpqgE0SZAkh7CTrmaGwBFxuASwr4BV3X6W1SA9kYGOZCci2Qdh1tfKKQHRCkAWgCyNYUcIRAnCzhiQzQMkKuH2QPBdgBoJzmYBCgKucAOIWsnuGPComW/SkBJEYB3tsQGQ4OmEGCBVRyEqtIQEiAMByCr0sDEXmZ3YIGBEYUI4YYJFREL5QgvEaESCMcGc1rqHgxwMwAWFYgsgfQLKJkCECd9yQMzWKIEF5B
+
+MBMgtCDABVweFSNQaulGqH8MWHXDQhmhLKCQBiZEQvhcAdUvyODjrDyQ97DEZziHA/DyoatQrvTHUSUtggQsUfGFCAA=
+%%">
+<meta name="author" content="lijiaxin">
+<link rel="canonical" href="http://localhost:1313/excalidraw/drawing-2026-05-24-20/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.6ff46447b1fa3f8a5cc0bcae48088decc3ae37f5fbc99406a3aefc3bf0e6044a.css" integrity="sha256-b/RkR7H6P4pcwLyuSAiN7MOuN/X7yZQGo678O/DmBEo=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/excalidraw/drawing-2026-05-24-20/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
+</noscript>
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
+        document.querySelector("html").dataset.theme = 'light';
+    }
+
+</script>
+</head>
+<body id="top">
+    <header class="header">
+    <nav class="header-nav">
+        <div class="logo">
+            <a href="http://localhost:1313/" accesskey="h" title="边缘模型部署架构师之路 (Alt + H)">边缘模型部署架构师之路</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" class="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg class="moon" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg class="sun" xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu" class="menu">
+            <li>
+                <a href="http://localhost:1313/posts/" title="文章">
+                    <span>文章</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="关于">
+                    <span>关于</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      
+    </h1>
+    <div class="post-meta">
+
+<span>1 min</span>&nbsp;·&nbsp;<span>lijiaxin</span>
+
+</div>
+  </header> 
+  <div class="post-content md-content"><p>==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠== You can decompress Drawing data with the command palette: &lsquo;Decompress current Excalidraw file&rsquo;. For more info check in plugin settings under &lsquo;Saving&rsquo;</p>
+<h1 id="excalidraw-data">Excalidraw Data<a hidden class="anchor" aria-hidden="true" href="#excalidraw-data">#</a></h1>
+<h2 id="text-elements">Text Elements<a hidden class="anchor" aria-hidden="true" href="#text-elements">#</a></h2>
+<p>Batch个图片 ^XLUIjrLN</p>
+<p>两个label ^cqymwnGE</p>
+<p>对应label文件中的两条记录 ^ToxFTIvE</p>
+<p>%%</p>
+<h2 id="drawing">Drawing<a hidden class="anchor" aria-hidden="true" href="#drawing">#</a></h2>
+<pre tabindex="0"><code class="language-compressed-json" data-lang="compressed-json">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
+</code></pre><p>%%</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:1313/tags/excalidraw/">Excalidraw</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="next" href="http://localhost:1313/excalidraw/%E6%A8%A1%E5%9E%8Bptq%E5%8F%8A%E5%85%B6%E9%87%8F%E5%8C%96%E5%8E%9F%E7%90%86/">
+    <span class="title">Next »</span>
+    <span></span>
+  </a>
+</nav>
+
+
+<ul class="share-buttons">
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share  on x"
+            href="https://x.com/intent/tweet/?text=&amp;url=http%3a%2f%2flocalhost%3a1313%2fexcalidraw%2fdrawing-2026-05-24-20%2f&amp;hashtags=excalidraw">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share  on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fexcalidraw%2fdrawing-2026-05-24-20%2f&amp;title=&amp;summary=&amp;source=http%3a%2f%2flocalhost%3a1313%2fexcalidraw%2fdrawing-2026-05-24-20%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share  on reddit"
+            href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fexcalidraw%2fdrawing-2026-05-24-20%2f&title=">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share  on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fexcalidraw%2fdrawing-2026-05-24-20%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share  on whatsapp"
+            href="https://api.whatsapp.com/send?text=%20-%20http%3a%2f%2flocalhost%3a1313%2fexcalidraw%2fdrawing-2026-05-24-20%2f">
+            <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share  on telegram"
+            href="https://telegram.me/share/url?text=&amp;url=http%3a%2f%2flocalhost%3a1313%2fexcalidraw%2fdrawing-2026-05-24-20%2f">
+            <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
+                <path
+                    d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />
+            </svg>
+        </a>
+    </li>
+    <li>
+        <a target="_blank" rel="noopener noreferrer" aria-label="share  on ycombinator"
+            href="https://news.ycombinator.com/submitlink?t=&u=http%3a%2f%2flocalhost%3a1313%2fexcalidraw%2fdrawing-2026-05-24-20%2f">
+            <svg version="1.1" xml:space="preserve" width="30px" height="30px" viewBox="0 0 512 512" fill="currentColor"
+                xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape">
+                <path
+                    d="M449.446 0C483.971 0 512 28.03 512 62.554L512 449.446C512 483.97 483.97 512 449.446 512L62.554 512C28.03 512 0 483.97 0 449.446L0 62.554C0 28.03 28.029 0 62.554 0L449.446 0ZM183.8767 87.9921H121.8427L230.6673 292.4508V424.0079H281.3328V292.4508L390.1575 87.9921H328.1233L256 238.2489z" />
+            </svg>
+        </a>
+    </li>
+</ul>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2026 <a href="http://localhost:1313/">边缘模型部署架构师之路</a></span> · 
+
+    
+    
+    <span>
+        Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" id="top-link" class="top-link hidden" aria-label="go to top" title="Go to Top (Alt + G)" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevrons-up">
+        <polyline points="17 11 12 6 7 11"></polyline>
+        <polyline points="17 18 12 13 7 18"></polyline>
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu');
+    if (menu) {
+        
+        const scrollPosition = localStorage.getItem("menu-scroll-position");
+        if (scrollPosition) {
+            menu.scrollLeft = parseInt(scrollPosition, 10);
+        }
+        
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var toplink = document.getElementById("top-link");
+    window.onscroll = function () {
+        const scrollThreshold = window.innerHeight;
+        if (document.body.scrollTop > scrollThreshold || document.documentElement.scrollTop > scrollThreshold) {
+            toplink.classList.remove("hidden");
+        } else {
+            toplink.classList.add("hidden");
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        const html = document.querySelector("html");
+        if (html.dataset.theme === "dark") {
+            html.dataset.theme = 'light';
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            html.dataset.theme = 'dark';
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>
