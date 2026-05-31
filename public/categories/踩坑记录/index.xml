@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>踩坑记录 on 边缘模型部署架构师之路</title>
+    <link>http://localhost:1313/categories/%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/</link>
+    <description>Recent content in 踩坑记录 on 边缘模型部署架构师之路</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 30 May 2026 09:32:20 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>边缘设备模型部署的踩坑记录</title>
+      <link>http://localhost:1313/posts/deploy_trap/</link>
+      <pubDate>Sat, 30 May 2026 09:32:20 +0800</pubDate>
+      <guid>http://localhost:1313/posts/deploy_trap/</guid>
+      <description>边缘设备国产NPU、Jetson，模型部署踩坑记录</description>
+    </item>
+  </channel>
+</rss>

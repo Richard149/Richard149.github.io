@@ -1,0 +1,56 @@
+baseURL = 'https://lijiaxin.github.io'
+languageCode = 'zh-CN'
+title = '边缘模型部署架构师之路'
+theme = 'PaperMod'
+
+[params]
+  author = 'lijiaxin'
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+
+[params.profileMode]
+  enabled = true
+  title = "感知模型量化与边缘部署"
+  subtitle = "PTQ/QAT 实践 | NVIDIA设备部署 |国产 NPU 部署"
+  imageUrl = "/images/avatar.png"
+  imageTitle = "lijiaxin"
+
+
+[[params.profileMode.buttons]]
+  name = "文章"
+  url = "/posts/"
+
+[[menu.main]]
+  identifier = "posts"
+  name = "文章"
+  url = "/posts/"
+  weight = 10
+
+[module]
+  [[module.mounts]]
+    source = "content"
+    target = "content"
+    excludeFiles = ["templates/**"]
+
+[[params.socialIcons]]
+  name = "github"
+  url = "https://github.com/你的用户名"
+
+[[params.socialIcons]]
+  name = "zhihu"
+  url = "https://www.zhihu.com/people/你的知乎ID"
+
+[[params.socialIcons]]
+  name = "email"
+  url = "mailto:13051697265@163.com"
+
+[[params.socialIcons]]
+  name = "wechat"
+  url = "https://mp.weixin.qq.com/..."  # 如果有公众号
+
+[[menu.main]]
+  identifier = "about"
+  name = "关于"
+  url = "/about/"
+  weight = 20
