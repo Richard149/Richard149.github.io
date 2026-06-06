@@ -25,6 +25,18 @@
             "id": "0189c94b70ac9ecc",
             "type": "leaf",
             "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/YoloV5损失函数数据流.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "YoloV5损失函数数据流.excalidraw"
+            }
+          },
+          {
+            "id": "cd934d5f69ee178b",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "posts/_index.md",
@@ -36,7 +48,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -197,23 +209,29 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0189c94b70ac9ecc",
+  "active": "cd934d5f69ee178b",
   "lastOpenFiles": [
+    "posts/calibration/index.md",
+    "posts/calibration/yolov5_loss_data_pipeline.png",
+    "posts/calibration/calibration_extren.png",
+    "posts/assets/calibration_extren.png",
+    "Excalidraw/标定焚诀.excalidraw.md",
+    "Excalidraw/模型QAT.excalidraw.md",
+    "posts/calibration",
+    "Excalidraw/YoloV5损失函数数据流.excalidraw.md",
+    "Excalidraw/模型PTQ及其量化原理.excalidraw.md",
+    "posts/yolov5_loss/yolov5_loss_data_pipeline.png",
+    "posts/_index.md",
     "posts/deploy_trap/index.md",
     "posts/yolov5_loss/index.md",
     "posts/deploy_trap",
-    "posts/yolov5_loss/yolov5_loss_data_pipeline.png",
-    "Excalidraw/YoloV5损失函数数据流.excalidraw.md",
-    "Excalidraw/模型QAT.excalidraw.md",
     "posts/qat-detailed-flow/index.md",
     "posts/yolov5_loss",
     "posts/qat-detailed-flow/插入stub和fakequant.png",
     "posts/qat-detailed-flow/qat反向传播.png",
-    "Excalidraw/模型PTQ及其量化原理.excalidraw.md",
     "posts/qat-detailed-flow/qat前向传播.png",
     "posts/qat-detailed-flow/原始模型.png",
     "posts/assets",
-    "posts/_index.md",
     "posts/ptq-detailed-flow/Index.md",
     "posts/ptq-detailed-flow/index.md",
     "posts/qat-detailed-flow/Index.md",
@@ -233,10 +251,6 @@
     "posts/test",
     "posts/举例说明---PTQ详细流程与原理.md",
     "posts/ptq-detailed-flow/举例说明---PTQ详细流程与原理03.png",
-    "posts/ptq-detailed-flow/举例说明---PTQ详细流程与原理03-2.png",
-    "posts/ptq-detailed-flow/举例说明---PTQ详细流程与原理03-1.png",
-    "posts/ptq-detailed-flow/举例说明---PTQ详细流程与原理02.png",
-    "posts/ptq-detailed-flow",
     "posts/yolov5-loss-deep-dive.md",
     "posts/未命名.md",
     "templates/未命名.md"
