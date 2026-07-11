@@ -14,5 +14,5 @@ description: yolov5损失函数数据流
 
 ### 1 . 数据流详细流程
 
-label数据的流程的复杂来自于数据的扩充<解决正样本个数太少的问题>；分别是两次扩从一次是anchor的扩充，一次是偏移的扩充。
+label数据的流程的复杂来自于数据的扩充<解决正样本个数太少的问题>；分别是两次扩充一次是anchor的扩充，一次是偏移的扩充。
 ![image](yolov5_loss_data_pipeline.png)
