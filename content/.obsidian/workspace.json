@@ -4,33 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "83fa76de5d8f3d31",
+        "id": "1ce59d1eabdcc65d",
         "type": "tabs",
         "children": [
           {
-            "id": "6d3390ae61229466",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posts/yolov5_model/index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "9884eedf4cc3deb3",
+            "id": "75c4a3776bb841fc",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/CUDA_BASIC.excalidraw.md"
+                "file": "Excalidraw/YoloV5损失函数数据流.excalidraw.md"
               },
               "icon": "excalidraw-icon",
-              "title": "CUDA_BASIC.excalidraw"
+              "title": "YoloV5损失函数数据流.excalidraw"
+            }
+          },
+          {
+            "id": "a22ade7379c5de2f",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Excalidraw/Drawing 2026-10-17 13.52.43.excalidraw.md"
+              },
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-10-17 13.52.43.excalidraw"
             }
           }
         ],
@@ -195,16 +193,22 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9884eedf4cc3deb3",
+  "active": "a22ade7379c5de2f",
   "lastOpenFiles": [
+    "posts/dataset/index.md",
+    "posts/dataset",
+    "Excalidraw/YoloV5损失函数数据流.excalidraw.md",
+    "Excalidraw/Drawing 2026-10-17 13.52.43.excalidraw.md",
+    "Excalidraw/yolov5s模型结构.md",
+    "Excalidraw/单生产者_单消费者循环队列.excalidraw.md",
+    "Excalidraw/标定焚诀.excalidraw.md",
+    "posts/yolov5_model/index.md",
     "posts/cuda_basic/cuda_basic.png",
+    "Excalidraw/CUDA_BASIC.excalidraw.md",
     "posts/cuda_basic/index.md",
     "posts/assets/cuda_basic.png",
-    "Excalidraw/CUDA_BASIC.excalidraw.md",
-    "posts/yolov5_model/index.md",
     "posts/cuda_basic",
     "posts/yolov5_model/yolov5_model.png",
-    "Excalidraw/yolov5s模型结构.md",
     "posts/assets/Pasted Image 20260722204206_208.png",
     "posts/assets/Pasted Image 20260722182654_118.png",
     "posts/assets/Pasted Image 20260722182614_906.png",
@@ -215,16 +219,12 @@
     "posts/yolov5_model/yolov5_loss_data_pipeline.png",
     "posts/yolov5_model",
     "posts/yolov5_loss/index.md",
-    "posts/yolov5_loss/yolov5_loss_data_pipeline.png",
-    "Excalidraw/YoloV5损失函数数据流.excalidraw.md",
     "posts/_index.md",
     "posts/deploy_trap/index.md",
-    "Excalidraw/单生产者_单消费者循环队列.excalidraw.md",
     "posts/muti_thread/index.md",
     "posts/cpp/index.md",
     "posts/muti_thread",
     "posts/qat-detailed-flow/index.md",
-    "Excalidraw/标定焚诀.excalidraw.md",
     "Excalidraw/模型QAT.excalidraw.md",
     "posts/calibration",
     "Excalidraw/模型PTQ及其量化原理.excalidraw.md",
@@ -238,10 +238,8 @@
     "posts/test/Index.md",
     "posts/qat-detailed-flow",
     "about/index.md",
-    "about",
     "posts/test/index.md",
     "posts/test/未命名.md",
-    "templates/blog-post.md",
-    "posts/templates/blog-post.md"
+    "templates/blog-post.md"
   ]
 }
